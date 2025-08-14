@@ -1,5 +1,9 @@
 # Changelog
 
+## Thu Aug 14 2025 (v1.0.3)
+
+- docs(readme): fix changelog and preview urls
+
 ## Thu Aug 14 2025 (v1.0.2)
 
 - docs(changelog): add changelog

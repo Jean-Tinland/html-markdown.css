@@ -6,11 +6,11 @@ It uses CSS `::before` and `::after` pseudo-elements to add the Markdown-like sy
 
 Everything can be customized with CSS variables. Dark and light modes are supported by default thanks to the `light-dark()` CSS function and the `color-scheme` property.
 
-Changelog is available [here](CHANGELOG.md).
+Changelog is available [here](https://github.com/Jean-Tinland/html-markdown.css/blob/main/CHANGELOG.md).
 
 ## Preview
 
-![Preview of html-markdown.css](preview.jpeg)
+![Preview of html-markdown.css](https://raw.githubusercontent.com/Jean-Tinland/html-markdown.css/refs/heads/main/preview.jpeg)
 
 ## Usage
 
