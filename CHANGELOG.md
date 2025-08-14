@@ -4,6 +4,7 @@
 
 - docs(changelog): add changelog
 - docs(readme): fix typo in readme
+- docs(readme): add preview
 
 ## Thu Aug 14 2025 (v1.0.1)
 

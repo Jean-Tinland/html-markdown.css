@@ -8,6 +8,10 @@ Everything can be customized with CSS variables. Dark and light modes are suppor
 
 Changelog is available [here](CHANGELOG.md).
 
+## Preview
+
+![Preview of html-markdown.css](preview.jpeg)
+
 ## Usage
 
 Load the `html-markdown.css` stylesheet in your HTML file.
