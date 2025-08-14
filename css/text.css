@@ -1,0 +1,31 @@
+p {
+  margin: 0 0 var(--md-spacing) 0;
+}
+
+:is(b, strong) {
+  color: var(--md-bold-color);
+}
+
+:is(b, strong)::before,
+:is(b, strong)::after {
+  content: "**";
+}
+
+:is(i, em) {
+  color: var(--md-italic-color);
+}
+
+:is(i, em)::before,
+:is(i, em)::after {
+  content: "*";
+}
+
+s {
+  color: var(--md-strikethrough-color);
+  text-decoration: none;
+}
+
+s::before,
+s::after {
+  content: "~~";
+}

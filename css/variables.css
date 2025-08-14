@@ -1,0 +1,43 @@
+:where(:root, :host) {
+  /* Layout */
+  --md-layout-width: 800px;
+  --md-layout-padding: 20px;
+  --md-spacing: 1em;
+
+  /* Font */
+  --md-font-family: monospace;
+  --md-font-size: 16px;
+  --md-font-weight: 400;
+  --md-line-height: 1.65;
+
+  /* Colors */
+  --md-background-light: #f8f8f2;
+  --md-background-dark: #1e1e1e;
+  --md-background: light-dark(
+    var(--md-background-light),
+    var(--md-background-dark)
+  );
+  --md-foreground-light: #1e1e1e;
+  --md-foreground-dark: #f8f8f2;
+  --md-foreground: light-dark(
+    var(--md-foreground-light),
+    var(--md-foreground-dark)
+  );
+  --md-grey: #7e7e7e;
+  --md-red: #e78482;
+  --md-green: #8fc8bb;
+  --md-yellow: #e0b972;
+  --md-orange: #ffb374;
+  --md-blue: #6db3ce;
+  --md-magenta: #ad82cb;
+  --md-cyan: #2fc2c3;
+
+  /* Content color customization */
+  --md-heading-color: var(--md-grey);
+  --md-strikethrough-color: var(--md-grey);
+  --md-code-color: var(--md-grey);
+  --md-blockquote-color: var(--md-grey);
+  --md-bold-color: var(--md-magenta);
+  --md-italic-color: var(--md-cyan);
+  --md-anchor-color: var(--md-yellow);
+}

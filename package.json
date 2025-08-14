@@ -1,0 +1,18 @@
+{
+  "name": "html-markdown.css",
+  "version": "1.0.1",
+  "description": "An HTML-to-Markdown CSS framework",
+  "license": "GPL-3.0",
+  "author": "Jean Tinland",
+  "type": "module",
+  "scripts": {
+    "bundle:css": "node ./scripts/bundle-css.js",
+    "prepublishOnly": "npm run bundle:css"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.30.1"
+  },
+  "files": [
+    "build"
+  ]
+}

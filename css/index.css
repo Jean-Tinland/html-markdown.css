@@ -1,0 +1,10 @@
+@import "./variables.css";
+@import "./globals.css";
+@import "./heading.css";
+@import "./text.css";
+@import "./anchor.css";
+@import "./list.css";
+@import "./blockquote.css";
+@import "./image.css";
+@import "./code.css";
+@import "./separator.css";

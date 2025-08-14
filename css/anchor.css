@@ -1,0 +1,28 @@
+a {
+  color: var(--md-foreground);
+  text-decoration: none;
+}
+
+a:is(:hover, :focus) {
+  text-decoration: underline;
+  text-decoration-color: var(--md-foreground);
+}
+
+a::before {
+  content: "[";
+}
+
+a::after {
+  content: "]";
+}
+
+a[href]::before {
+  content: "[";
+  color: var(--md-anchor-color);
+}
+
+a[href]::after {
+  content: "](" attr(href) ")";
+  color: var(--md-anchor-color);
+  word-break: break-all;
+}

@@ -1,0 +1,17 @@
+img {
+  content: "";
+  display: inline-block;
+}
+
+img::before {
+  content: none;
+}
+
+img::after {
+  content: "![" attr(data-md-alt) "](" attr(data-md-src) ")";
+  display: inline-block;
+}
+
+img[data-md-src] + img:not([data-md-src]) {
+  display: none;
+}

@@ -1,0 +1,20 @@
+ul,
+ol {
+  margin: 0 0 var(--md-spacing) 0;
+}
+
+:is(ul, ol) :is(ul, ol) {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 2ch;
+}
+
+ol {
+  padding-left: 3ch;
+}
+
+ul li::marker {
+  content: "- ";
+}

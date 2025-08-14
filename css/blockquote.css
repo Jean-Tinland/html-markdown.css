@@ -1,0 +1,16 @@
+blockquote {
+  margin: 0 0 var(--md-spacing) 0;
+  padding-left: 2ch;
+  overflow: hidden;
+}
+
+blockquote::before {
+  content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: -2ch;
+  color: var(--md-blockquote-color);
+  font-size: inherit;
+  line-height: inherit;
+}

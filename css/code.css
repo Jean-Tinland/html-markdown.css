@@ -1,0 +1,33 @@
+code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+code::before,
+code::after {
+  content: "`";
+  color: var(--md-code-color);
+}
+
+pre {
+  margin: 0 0 var(--md-spacing) 0;
+}
+
+pre::before,
+pre::after {
+  content: "```";
+  color: var(--md-code-color);
+}
+
+pre[class]::before {
+  content: "```" attr(class);
+}
+
+pre[data-md-language]::before {
+  content: "```" attr(data-md-language);
+}
+
+pre > code::before,
+pre > code::after {
+  content: none;
+}

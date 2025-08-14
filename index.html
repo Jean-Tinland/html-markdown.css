@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html-markdown.css</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>html-markdown.css</h1>
+
+      <section id="typography">
+        <h2>Typography</h2>
+        <p>
+          Consectetur deserunt reprehenderit nulla elit culpa cillum tempor ut
+          consectetur commodo irure laborum eu ut aute in amet pariatur Lorem
+          laborum pariatur in sit reprehenderit culpa anim tempor commodo tempor
+          ad eu officia esse aute reprehenderit cillum laborum ipsum ut.
+        </p>
+
+        <blockquote>
+          "Veniam laborum dolor deserunt velit aliqua officia sunt aute
+          cupidatat pariatur amet exercitation quis irure voluptate nulla ut
+          dolor tempor. Veniam laborum dolor deserunt velit aliqua officia sunt
+          aute cupidatat pariatur amet exercitation quis irure voluptate nulla
+          ut dolor tempor."
+        </blockquote>
+
+        <h1>Heading 1</h1>
+        <p>
+          Occaecat incididunt quis excepteur duis eu aliquip eu veniam dolor
+          nisi et Lorem laborum nostrud voluptate do sint labore exercitation
+        </p>
+        <h2>Heading 2</h2>
+        <p>
+          Occaecat incididunt quis excepteur duis eu aliquip eu veniam dolor
+          nisi et Lorem laborum nostrud voluptate do sint labore exercitation
+        </p>
+        <h3>Heading 3</h3>
+        <p>
+          Occaecat incididunt quis excepteur duis eu aliquip eu veniam dolor
+          nisi et Lorem laborum nostrud voluptate do sint labore exercitation
+        </p>
+        <h4>Heading 4</h4>
+        <p>
+          Fugiat elit voluptate laborum aliqua deserunt Lorem anim mollit
+          reprehenderit ipsum anim nulla exercitation pariatur dolor in dolor
+          deserunt irure nulla do do fugiat voluptate.
+        </p>
+        <h5>Heading 5</h5>
+        <p>
+          Sunt elit ullamco cupidatat aliquip excepteur proident qui quis ut
+          proident duis incididunt aliquip nisi proident nisi adipisicing et do.
+        </p>
+        <h6>Heading 6</h6>
+        <p>
+          Commodo irure in adipisicing enim est nisi nulla dolor exercitation
+          cupidatat in ea eiusmod minim magna duis dolor irure consequat dolor
+          nulla cupidatat adipisicing veniam amet labore nisi aliquip tempor
+          officia exercitation nostrud occaecat dolore excepteur sint nulla
+          culpa ad.
+        </p>
+
+        <h3>Separator</h3>
+
+        <hr />
+
+        <h3>Unordered list</h3>
+        <ul>
+          <li>Aliquam lobortis lacus eu libero ornare facilisis.</li>
+          <li>
+            Nam et magna at libero scelerisque egestas.
+            <ul>
+              <li>Nisi esse quis excepteur elit.</li>
+              <li>Aliqua esse incididunt consequat ex.</li>
+              <li>Cupidatat magna culpa magna velit.</li>
+              <li>Ipsum ad irure dolor ad.</li>
+            </ul>
+          </li>
+          <li>Suspendisse id nisl ut leo finibus vehicula quis eu ex.</li>
+          <li>Proin ultricies turpis et volutpat vehicula.</li>
+        </ul>
+
+        <h3>Ordered list</h3>
+        <ol>
+          <li>Aliquam lobortis lacus eu libero ornare facilisis.</li>
+          <li>
+            Nam et magna at libero scelerisque egestas.
+            <ol>
+              <li>Nisi esse quis excepteur elit.</li>
+              <li>Aliqua esse incididunt consequat ex.</li>
+              <li>Cupidatat magna culpa magna velit.</li>
+              <li>Ipsum ad irure dolor ad.</li>
+            </ol>
+          </li>
+          <li>Suspendisse id nisl ut leo finibus vehicula quis eu ex.</li>
+          <li>
+            Proin ultricies turpis et volutpat vehicula.
+            <ul>
+              <li>Nisi esse quis excepteur elit.</li>
+              <li>Aliqua esse incididunt consequat ex.</li>
+              <li>Cupidatat magna culpa magna velit.</li>
+              <li>Ipsum ad irure dolor ad.</li>
+            </ul>
+          </li>
+        </ol>
+
+        <h3>Inline text elements</h3>
+        <p>
+          <a href="/a-nice-link/" onclick="event.preventDefault()">Link</a>
+        </p>
+        <p><strong>Bold</strong></p>
+        <p><em>Italic</em></p>
+        <p>
+          <strong><em>Bold and italic</em></strong>
+        </p>
+        <p><s>Strikethrough</s></p>
+      </section>
+
+      <section id="code">
+        <h2>Code</h2>
+        <p><code>echo "Hello world!"</code></p>
+        <pre class="javascript"><code></code></pre>
+      </section>
+
+      <section id="image">
+        <h2>Image</h2>
+        <img
+          data-md-src="https://www.jeantinland.com/_generated/bare/images/portfolio/me1.png"
+          data-md-alt="Middle-Earth"
+          alt=" "
+        />
+        <img
+          src="https://www.jeantinland.com/_generated/bare/images/portfolio/me1.png"
+          alt="Middle-Earth"
+        />
+      </section>
+    </main>
+
+    <script>
+      const codeDemoContainer = document.querySelector(".javascript");
+
+      codeDemoContainer.innerHTML = `
+const btn = document.getElementById('btn');
+let count = 0;
+
+function render() {
+  btn.innerText = \`Count: \${count}\`;
+}
+
+btn.addEventListener('click', () => {
+  // Count from 1 to 10.
+  if (count < 10) {
+    count += 1;
+    render();
+  }
+});
+`;
+    </script>
+  </body>
+</html>

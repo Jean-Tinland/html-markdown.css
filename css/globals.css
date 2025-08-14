@@ -1,0 +1,22 @@
+:where(html, body, :host) {
+  color-scheme: light dark;
+  font-family: var(--md-font-family);
+  font-size: var(--md-font-size);
+  font-weight: var(--md-font-weight);
+  line-height: var(--md-line-height);
+  background-color: var(--md-background);
+  color: var(--md-foreground);
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: contextual;
+}
+
+:where(*, *::before, *::after) {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+:where(main) {
+  width: min(calc(100% - var(--md-layout-padding)), var(--md-layout-width));
+  margin-inline: auto;
+  padding-block: calc(var(--md-layout-padding) / 2);
+}
