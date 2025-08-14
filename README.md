@@ -16,7 +16,7 @@ Load the `html-markdown.css` stylesheet in your HTML file.
 <!-- Minified version (2,25ko gzip, 3,87 Ko) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/html-markdown.css@latest/build/html-markdown.min.css" />
 
-<!-- Unminified version (2,25ko gzip, 4,58ko) -->
+<!-- Unminified version (2,35ko gzip, 4,58ko) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/html-markdown.css@latest/build/html-markdown.css" />
 ```
 
