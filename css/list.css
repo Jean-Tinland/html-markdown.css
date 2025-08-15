@@ -8,11 +8,12 @@ ol {
 }
 
 ul {
+  list-style: "- ";
   padding-left: 2ch;
 }
 
 ol {
-  padding-left: 3ch;
+  padding-left: 3.5ch;
 }
 
 ul li::marker {
