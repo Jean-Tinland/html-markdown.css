@@ -10,6 +10,7 @@ img::before {
 img::after {
   content: "![" attr(data-md-alt) "](" attr(data-md-src) ")";
   display: inline-block;
+  word-break: break-all;
 }
 
 img[data-md-src] + img:not([data-md-src]) {
