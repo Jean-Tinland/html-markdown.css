@@ -1,5 +1,12 @@
 # Changelog
 
+## Fri Aug 15 2025 (v1.0.4)
+
+- chore(dev): add `npm run dev` script
+- fix: add word-break to code blocks
+- fix: add word-break to images
+- fix: update demo code block injection query selector
+
 ## Thu Aug 14 2025 (v1.0.3)
 
 - docs(readme): fix changelog and preview urls
