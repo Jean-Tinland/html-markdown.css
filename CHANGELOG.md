@@ -1,5 +1,10 @@
 # Changelog
 
+## Fri Aug 15 2025 (v1.0.5)
+
+- fix: add correct list markers in safari
+- fix: improve image selector specificity
+
 ## Fri Aug 15 2025 (v1.0.4)
 
 - chore(dev): add `npm run dev` script

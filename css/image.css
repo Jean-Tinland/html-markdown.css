@@ -1,13 +1,13 @@
-img {
+img[data-md-src] {
   content: "";
   display: inline-block;
 }
 
-img::before {
-  content: none;
+img[data-md-src]::before {
+  content: "";
 }
 
-img::after {
+img[data-md-src]::after {
   content: "![" attr(data-md-alt) "](" attr(data-md-src) ")";
   display: inline-block;
   word-break: break-all;
